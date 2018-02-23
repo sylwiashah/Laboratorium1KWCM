@@ -19,7 +19,7 @@ int main() {
 	std::cout<< "ctg=" << degreemath::ctg(15)<<std::endl;
 
 #else
-
+	std::cout<< "OFF=" << std::endl;
 	std::cout<< "sin=" << sin(M_PI/4.0)<<std::endl;
 	std::cout<< "cos=" << cos(M_PI/4.0)<<std::endl;
 	std::cout<< "tg=" << tan(M_PI/4.0)<<std::endl;
